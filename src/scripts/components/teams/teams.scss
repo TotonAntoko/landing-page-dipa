@@ -1,0 +1,113 @@
+.teams {
+  background: #15141b;
+  padding-top: 8rem !important;
+  padding-bottom: 6rem !important;
+  margin-top: 14rem;
+
+  .description,
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: flex-start;
+    gap: 10rem;
+  }
+
+  .description {
+    margin-bottom: 5rem;
+  }
+
+  .about {
+    p {
+      font-family: "Eudoxus Sans", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 2.5rem;
+      line-height: 150%;
+      letter-spacing: 0.01em;
+      color: #ffffff;
+    }
+  }
+
+  .teams-number {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 15rem;
+
+    .list-item {
+      color: #ffffff;
+
+      p.amount {
+        font-family: "Eudoxus Sans", sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 5rem;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+
+      p.team {
+        font-family: "Eudoxus Sans", sans-serif;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 600;
+        /* line-height: 36px; */
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+
+  .rating {
+    .info {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+
+      .amount {
+        font-family: "Eudoxus Sans", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+        /* identical to box height */
+
+        color: #ffffff;
+      }
+
+      .vendor {
+        font-family: "Eudoxus Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 2.3rem;
+
+        color: #ffffff;
+      }
+    }
+
+    .award {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+      /* identical to box height */
+
+      letter-spacing: 0.01em;
+
+      /* Second */
+
+      color: #808a9e;
+      // justify-self: flex-start;
+    }
+  }
+
+  button {
+    padding: 2rem 6rem;
+    color: #006ff9;
+    background-color: #ffffff;
+    // justify-self: flex-start;
+  }
+}
