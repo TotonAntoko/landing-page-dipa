@@ -1,0 +1,142 @@
+.clients {
+  margin-top: 12rem;
+  > h1 {
+    font-family: "Eudoxus Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #161b2c;
+  }
+
+  > p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #808a9e;
+  }
+
+  .list-client {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    img {
+      max-width: -webkit-fill-available;
+      // mix-blend-mode: luminosity;
+    }
+
+    .client-logo {
+      // background-image: url("assets/app-logo.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 12rem;
+    }
+  }
+
+  .testimoni-client {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+
+    .testiomal-item {
+      padding: 4rem 4rem;
+      background: #fafbfc;
+
+      .header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 3rem;
+
+        img {
+          width: 64px;
+          height: 64px;
+          left: 208px;
+          top: 3924px;
+
+          border-radius: 100px;
+        }
+
+        .user-info {
+          h1 {
+            font-family: "Eudoxus Sans", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.8rem;
+            line-height: 2.3rem;
+            text-align: left;
+          }
+
+          p {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.3rem;
+            line-height: 1.9rem;
+            color: #808a9e;
+          }
+        }
+      }
+
+      .body {
+        p {
+          width: 394px;
+          height: 105px;
+
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 2rem;
+          line-height: 140%;
+          /* or 35px */
+
+          /* Black */
+
+          color: #161b2c;
+        }
+      }
+
+      .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .rating {
+          &-star {
+            img {
+              margin-right: 0.5rem;
+            }
+            margin-bottom: 0.7rem;
+          }
+
+          &-number {
+            font-family: "Eudoxus Sans", sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 1.3rem;
+            line-height: 2rem;
+            color: #161b2c;
+            p {
+              display: inline;
+              margin-left: 0.5rem;
+              text-decoration: underline;
+              color: #006ff9;
+            }
+          }
+        }
+
+        img {
+          max-width: 5.2rem;
+          max-height: 5.2rem;
+        }
+      }
+    }
+  }
+}
