@@ -1,0 +1,52 @@
+.hero {
+  padding-top: 7.6rem !important;
+  .information {
+    h1 {
+      font-family: "Eudoxus Sans", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 7.4rem;
+      line-height: 130%;
+      letter-spacing: -0.1rem;
+      color: #161b2c;
+    }
+
+    p {
+      margin: 1rem 0 3rem;
+      width: 90rem;
+      height: 8.6rem;
+
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 2rem;
+      line-height: 180%;
+
+      letter-spacing: 0.01em;
+
+      color: #808a9e;
+    }
+  }
+
+  .button-group {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 8.8rem;
+
+    .work-together {
+      padding: 2rem 3rem;
+    }
+
+    .check-portfolio {
+      padding: 2rem 4rem;
+      background: #f5f7f9;
+      color: #006ff9;
+    }
+  }
+
+  .hero-image {
+    img {
+      max-width: -webkit-fill-available;
+    }
+  }
+}
