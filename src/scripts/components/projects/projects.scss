@@ -1,0 +1,43 @@
+.projects {
+  margin: 8rem 0 5rem;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    .title-info {
+      h1 {
+        font-family: "Eudoxus Sans", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3rem;
+        line-height: 4rem;
+        color: #161b2c;
+      }
+
+      p {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1, 7rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #808a9e;
+      }
+    }
+
+    button {
+      padding: 2rem 4rem;
+      background: #ffffff;
+      color: #006ff9;
+    }
+  }
+
+  .list-project {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    gap: 5%;
+  }
+}
