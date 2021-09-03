@@ -1,0 +1,25 @@
+.insights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem 20rem !important;
+  background-color: #fafbfc;
+
+  p {
+    // position: absolute;
+    width: 50rem;
+    height: 10.8rem;
+
+    font-family: "Eudoxus Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 150%;
+    color: #161b2c;
+  }
+
+  button {
+    padding: 2rem 3rem;
+    max-height: 7rem;
+  }
+}

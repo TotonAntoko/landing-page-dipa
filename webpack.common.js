@@ -13,6 +13,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'scripts/[name].[hash].bundle.js',
+    // filename: '[name].js',
   },
   module: {
     rules: [
@@ -36,7 +37,33 @@ module.exports = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        use: {
+          loader: 'file-loader',
+        },
+      },
+      {
+        test: /\.(png|jpg|gif|svg|ico)$/,
+        use: [
+          'file-loader',
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              bypassOnDebug: true, // webpack@1.x
+              disable: true, // webpack@2.x and newer
+            },
+          },
+        ],
+      },
+
     ],
+  },
+  resolve: {
+    alias: {
+      assets: path.resolve(__dirname, 'src/public'),
+    },
+    extensions: ['.js', '.jsx', '.css'],
   },
   plugins: [
     new webpack.ProgressPlugin(),

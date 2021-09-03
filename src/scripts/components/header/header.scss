@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+
+  border-bottom: 1px solid #edf2f9;
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5rem;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      gap: 5rem;
+
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          font-family: "Eudoxus Sans", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 18px;
+          color: #161b2c;
+        }
+      }
+    }
+
+    button {
+      padding: 1.6rem 4.5rem;
+    }
+  }
+}
